@@ -1,0 +1,20 @@
+# This argument is required
+token:
+  # Bot Token Here
+
+ids:
+  developers:
+    - 397029587965575170
+    - # Developer ID Here
+  host:
+    # Your ID here
+    
+prefix:
+  'tb.'
+
+cogs:
+  - cogs.core
+  - cogs.dev
+  - cogs.twow
+  - cogs.host
+  - cogs.timer
