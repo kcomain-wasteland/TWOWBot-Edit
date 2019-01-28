@@ -1,26 +1,3 @@
-<p align="center"><img
-    width="350"
-    src="https://i.imgur.com/3w0T9b5.png"
-></p>
-<h1 align="center">TWOWBot</h1>
-
-A simple bot for hosting miniTWOWs on [Discord](https://discordapp.com). **You can add the bot to your
-server using [this link.](https://htcraft.ml/twowbot)** Or, if you would like to help test experimental
-features, you can invite the beta/unstable bot using [this link.](https://htcraft.ml/twowbeta)
-
-![Python3.6](https://img.shields.io/badge/python-3.6-blue.svg)
-![Discord.py rewrite](https://img.shields.io/badge/discord.py-rewrite-orange.svg)
-[![Discord Server](https://discordapp.com/api/guilds/303616392710586373/widget.png)](https://discord.gg/t58ukQW)
-
-### About TWOWBot
-#### This bot is being developed by:
-* [Bottersnike#3605](https://github.com/Bottersnike)
-* [hanss314#0128](https://github.com/hanss314)
-* [Noahkiq#0493](https://github.com/Noahkiq)
-#### The bots are being hosted by:
-* [hanss314#0128](https://github.com/hanss314)
-
----
 ### How to use TWOWBot:
 #### Hosting an mTWOW:
 The host of an mTWOW has a couple of commands for them to use:
