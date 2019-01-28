@@ -6,6 +6,7 @@ ids:
   developers:
     - 397029587965575170
     - # Developer ID Here
+    - # More dev id?
   host:
     # Your ID here
     
@@ -18,3 +19,5 @@ cogs:
   - cogs.twow
   - cogs.host
   - cogs.timer
+
+# Test
