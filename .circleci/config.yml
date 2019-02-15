@@ -1,0 +1,14 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/circleci-demo-python-django
+    docker:
+      - image: circleci/python:3.6
+      steps:
+        - checkout  # checkout source code to working directory
+        - run:
+            command: |  # use pipenv to install dependencies
+              sudo pip install pipenv
+              pipenv install
+              pipenv run python3 setup.py
+              pipenv run python3 src/bot.py
