@@ -3,5 +3,5 @@ python:
   - "3.6"
 # command to run tests
 script:
-  - setup
-  - /src/bot
+  - python setup
+  - python ./src/bot
