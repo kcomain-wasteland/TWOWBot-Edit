@@ -62,39 +62,3 @@ or DM one of the developers (also in the **`about`** command).
 
 To get indepth help into any of these commands including what arguments they
 require and who can use them, use the `help` command.
-
-### How to host the bot:
-Hosting TWOWBot is relatively simple. To download it run the following commands:
-```sh
-$ git clone https://github.com/HTSTEM/TWOW_Bot TWOWBot
-$ cd TWOWBot/
-$ git checkout yaml
-```
-*Replace `yaml` in the above command with `stable` if you want to run versions
-that are usually stable.* From there, there is a handy setup script to get you
-on your feet:
-```sh
-$ python3 setup.py
-```
-You will then need to edit `src/config.yml` with your information. Your bot
-token can be found [here](https://discordapp.com/developers/applications/me),
-the `developers` section should have your ID in it, and then anyone else that
-might need full control of the bot,for example, any alt accounts you have. The
-`host` should have your ID in it.
-
-Once you've configured the bot, you can start it using:
-```
-run.cmd
-```
-Don't worry about being on Linux or Windows, the script will automatically
-detect which one you are using and then run the correct startup script for
-you.
-
-This script will expect you to be running python 3.6. It will check for
-`python3` and `python` as commands in that order, and use the first one it
-finds. It will also start it in a loop, so if the bot crashes, it will start
-back up. If you want to only run it once, use:
-```sh
-$ cd src/
-$ python3 bot.py
-```
