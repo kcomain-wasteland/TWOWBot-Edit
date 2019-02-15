@@ -12,3 +12,6 @@ jobs:
               pipenv install
               pipenv run python3 setup.py
               pipenv run python3 src/bot.py
+              - store_test_results:
+                  path: circlecixtest-results
+
