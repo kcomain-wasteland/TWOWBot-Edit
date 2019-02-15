@@ -2,7 +2,7 @@ language: python
 python:
   - "3.6"
 install:
-  - python setup.py
+  - python3 setup.py
 # command to run tests
 script:
-  - python ./src/bot.py
+  - python3 ./src/bot.py
