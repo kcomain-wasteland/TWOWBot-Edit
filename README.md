@@ -1,3 +1,6 @@
+# miniTWOWBot
+![](https://img.shields.io/travis/kcomain/TWOWBot-Hacked.svg?style=flat)
+
 ### How to use TWOWBot:
 #### Hosting an mTWOW:
 The host of an mTWOW has a couple of commands for them to use:
