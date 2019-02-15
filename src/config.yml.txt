@@ -1,14 +1,13 @@
 # This argument is required
 token:
-  NTM2MTExMTU1NzA2MzMxMTM5.D0gh8g.lU3EjUcUped1fh1FHTlcJeZl67U
-
+  # insert BOT TOKEN HERE
 ids:
   developers:
     - 397029587965575170
   # - Developer ID Here
   # - More dev id?
   host:
-    # 397029587965575170
+    # your id here
     
 prefix:
   'twow.'
