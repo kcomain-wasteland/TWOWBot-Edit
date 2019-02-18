@@ -1,5 +1,5 @@
 # miniTWOWBot
-![](https://img.shields.io/travis/kcomain/TWOWBot-Hacked.svg?style=flat)
+[![Build Status](https://travis-ci.org/kcomain/TWOWBot-Hacked.svg?branch=master)](https://travis-ci.org/kcomain/TWOWBot-Hacked)
 
 ### How to use TWOWBot:
 #### Hosting an mTWOW:
