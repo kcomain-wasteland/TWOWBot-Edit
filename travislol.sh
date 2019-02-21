@@ -1,5 +1,0 @@
-#!/bin/sh
-
-echo "Hello world"
-echo Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut consequat nisi. Cras vehicula, mauris vel pharetra sagittis, diam orci pulvinar turpis, quis lobortis lacus erat at sem. In hac habitasse platea dictumst. Integer at facilisis tortor, eget semper dolor. Nullam iaculis ex mauris, at hendrerit risus porttitor aliquam. Etiam eros dui, semper id metus non, malesuada consectetur arcu. In non tempus quam, quis convallis odio. Duis non lobortis turpis. Nullam luctus justo ut porta fringilla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce ut mattis arcu, a ultricies neque. Duis pulvinar leo est, ac bibendum erat lobortis a. Etiam vehicula urna sed pulvinar rhoncus. Nam egestas placerat ipsum, in lacinia odio fermentum at. Curabitur porttitor nisi cursus suscipit pellentesque. Vestibulum porttitor maximus blandit. In auctor, quam sed rhoncus posuere, diam sapien porta ex, id pulvinar elit nibh ultricies urna. Sed id congue diam. Fusce nec leo eu velit tempus feugiat a sed purus. Pellentesque varius massa eget quam blandit cursus.
-
