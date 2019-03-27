@@ -1,8 +1,8 @@
 # miniTWOWBot
 [![Build Status](https://travis-ci.org/kcomain/TWOWBot-Hacked.svg?branch=master)](https://travis-ci.org/kcomain/TWOWBot-Hacked)
 
-####### Hacked
-
+##### Hacked
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 ### How to use TWOWBot:
 #### Hosting an mTWOW:
 The host of an mTWOW has a couple of commands for them to use:
