@@ -1,5 +1,6 @@
 # miniTWOWBot
 [![Build Status](https://travis-ci.org/kcomain/TWOWBot-Hacked.svg?branch=master)](https://travis-ci.org/kcomain/TWOWBot-Hacked)
+####### Hacced
 
 ### How to use TWOWBot:
 #### Hosting an mTWOW:
