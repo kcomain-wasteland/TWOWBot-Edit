@@ -18,6 +18,11 @@ class Custom:
         '''
         await ctx.bot.send_message(ctx.channel,
             'Just a test,bro.')
-
+    @category('etc')
+    @commands.command()
+    async def ping(self, ctx):
+        '''Testing if bot is online
+        '''
+        await ctx.bot.send_message(ctx.channel,'Pong!')
 def setup(bot):
     bot.add_cog(Custom())
