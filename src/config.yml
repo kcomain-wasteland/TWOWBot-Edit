@@ -20,5 +20,6 @@ cogs:
   - cogs.twow
   - cogs.host
   - cogs.timer
+  - cogs.custom
 
 # Test
