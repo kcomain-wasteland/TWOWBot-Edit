@@ -155,7 +155,7 @@ class Core:
                 else:
                     d += '\n`{}{}` - Command not found'.format(ctx.prefix, i.replace('@', '@\u200b').replace('`', '`\u200b'))
             '''
-        d += '\n*Made by Bottersnike#3605, hanss314#0128 and Noahkiq#0493, hacked by Kenny aka DressedRhyme2510#5857*'
+        d += '\n*Made by Bottersnike#3605, hanss314#0128 and Noahkiq#0493, modded by .Kenny Cheung#5857*'
         await ctx.bot.send_message(ctx.channel, d)
 
     @category('info')
@@ -167,8 +167,8 @@ class Core:
     @category('info')
     @commands.command(aliases=['testMe'])
     async def test(self, ctx):
-	aaaaa='o hullo thjs is a test lol\n'
-	aaaaa+= 'sorry for the tqpos i done care tho coding in phones are not east:)'
+	aaaaa = 'o hullo thjs is a test lol\n'
+	aaaaa += 'sorry for the tuypos i done care tho coding in phones are not east:)'
 	await ctx.bot.send_message(ctx.channel,aaaaa)
 
     @category('info')
