@@ -165,26 +165,34 @@ class Core:
         await ctx.bot.send_message(ctx.channel, 'Pong!\n<Command not implemented yet')
 
     @category('info')
+    @commands.command(aliases=['testMe'])
+    async def test(self, ctx):
+	aaaaa='o hullo thjs is a test lol\n'
+	aaaaa+= 'sorry for the tqpos i done care tho coding in phones are not east:)'
+	await ctx.bot.send_message(ctx.channel,aaaaa)
+
+    @category('info')
     @commands.command(aliases=['info'])
     async def about(self, ctx):
-        '''Get info about the bot.
+        '''Get info about the bot. 
         This is also where the invite link is avaliable from.
         '''
         mess = '**This bot was developed by:**\n'
         mess += 'Bottersnike#3605\n'
         mess += 'hanss314#0128\n'
         mess += 'Noahkiq#0493\n'
-        mess += '**This bot was hacked by:**\n'
-        mess += 'Kenny aka DressedRhyme2510#5857\n'
+        mess += '**This bot is modded by:**\n'
+        mess += '.Kenny Cheung#5857\n'
         mess += '\n**This bot is being hosted by:**\n'
         mess += '{}\n'.format(ctx.bot.get_user(ctx.bot.BOT_HOSTER))
         mess += '**\n(Official) TWOWBot\'s avatar by:**\n'
         mess += 'Imagine4#8208\n'
         mess += '**This TWOWBot\'s avatar by:**\n'
-        mess += 'Kenny aka DressedRhyme2510#5857\n'
+        mess += '.Kenny Cheung#5857\n'
         mess += '**Resources:**\n'
         mess += '*The official TWOWBot discord server:* https://discord.gg/eZhpeMM\n'
         mess += '*Go contribute to TWOWBot on GitHub:* <https://github.com/HTSTEM/TWOW_Bot>\n'
+	mess += '*or here*<https://github.com/kcomain/TWOWBot-Hacked>'
         mess += '*Invite TWOWBot to your server:* <https://discordapp.com/oauth2/authorize?client_id={}&scope=bot>'.format(ctx.bot.user.id)
         await ctx.bot.send_message(ctx.channel, mess)
 
