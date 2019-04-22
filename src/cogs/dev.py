@@ -30,8 +30,6 @@ class Dev:
         async def die(ctx):
             await ctx.send('A shutdown task has already been scheduled.')
 
-        await ctx.send('Shutting down in 20 seconds.')
-        await asyncio.sleep(20)
         await ctx.bot.send_message(ctx.channel, ':wave:')
         await ctx.bot.logout()
 
@@ -41,6 +39,7 @@ class Dev:
     async def say(self, ctx, channel:int, *, words:str):
         '''Get the bot to say something.
         *Why did I even think this was a good idea?*
+	LOL because it is
         '''
         channel = ctx.bot.get_channel(channel)
         if channel is not None:
