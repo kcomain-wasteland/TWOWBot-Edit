@@ -167,9 +167,9 @@ class Core:
     @category('info')
     @commands.command(aliases=['testMe'])
     async def test(self, ctx):
-	aaaaa = 'o hullo thjs is a test lol\n'
-	aaaaa += 'sorry for the tuypos i done care tho coding in phones are not east:)'
-	await ctx.bot.send_message(ctx.channel,aaaaa)
+        aaaaa = 'o hullo thjs is a test lol\n
+        aaaaa += 'sorry for the tuypos i done care tho coding in phones are not east:)
+        await ctx.bot.send_message(ctx.channel,aaaaa)
 
     @category('info')
     @commands.command(aliases=['info'])
