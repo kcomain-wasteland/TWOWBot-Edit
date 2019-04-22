@@ -4,13 +4,15 @@ token:
 ids:
   developers:
     - 397029587965575170
+    - 434585742187167745
+
   # - Developer ID Here
   # - More dev id?
   host:
     # your id here
     
 prefix:
-  'twow.'
+  't!'
 
 cogs:
   - cogs.core
