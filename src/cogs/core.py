@@ -217,8 +217,7 @@ class Core:
             await ctx.channel.send(embed=embed)
         except discord.errors.Forbidden:
             pass
-        
-        
+
     @category('info')
     @commands.command(aliases=['instructions'])
     async def how(self, ctx):
@@ -230,26 +229,22 @@ class Core:
         msg += '**`start_voting`** will then close responses and allow people to vote.\n'
         msg += 'Finally, **`results`** will end the round and show results\n'
         msg += 'You can also use **`transfer`** to make someone else the host of the mTWOW.\n'
-        
         msg += '\n**Traditional mTWOWs:**\n'
         msg += 'The owner of a mTWOW can setup a traditional mTWOW where anyone can host:\n'
         msg += '**`can_queue on`** will allow people to join the hosting queue with **`join_queue`**.\n'
         msg += '**`queue_timer`** will allow you to set a timer for the events.\n'
         msg += 'Use **`help queue_timer`** and **`help set_timer`** help on the timer.\n'
         msg += '**`skip_host`** will skip the current host and start a fresh season.\n'
-        
         msg += '\n**Participating in a mTWOW:**\n'
         msg += 'When you are participating, you also have some commands you can use:\n'
         msg += '**`respond`**, when in a DM, allows you to respond to a prompt.\n'
         msg += '**`vote`**, when in a DM, will first generate your voting slide, and then allow you to vote on it.\n'
-        
         msg += '\n**Other useful commands:**\n'
         msg += 'There are a few commands that are useful to know:\n'
         msg += '**`prompt`** will show you the current prompt.\n'
         msg += '**`round`** and **`season`** will tell you the round and season number respectively.\n'
         msg += '**`status`** and **`season`** will give you information about a mTWOW.\n'
         msg += '**`id`** will get you the channel identifier for that mTWOW. This is needed when responding or voting.\n'
-        
         msg += '\n**Getting help:**\n'
         msg += 'All off these commands, and more, are avaliable in the **`help`** command.\n'
         msg += 'If you want to invite the bot to your server, or join the official one, use **`about`**.\n'
