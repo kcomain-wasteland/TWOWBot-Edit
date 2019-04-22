@@ -192,7 +192,7 @@ class Core:
         mess += '**Resources:**\n'
         mess += '*The official TWOWBot discord server:* https://discord.gg/eZhpeMM\n'
         mess += '*Go contribute to TWOWBot on GitHub:* <https://github.com/HTSTEM/TWOW_Bot>\n'
-	mess += '*or here*<https://github.com/kcomain/TWOWBot-Hacked>'
+        mess += '*or here*<https://github.com/kcomain/TWOWBot-Hacked>'
         mess += '*Invite TWOWBot to your server:* <https://discordapp.com/oauth2/authorize?client_id={}&scope=bot>'.format(ctx.bot.user.id)
         await ctx.bot.send_message(ctx.channel, mess)
 
