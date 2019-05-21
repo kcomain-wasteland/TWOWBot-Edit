@@ -1,0 +1,22 @@
+blacklist: []
+canqueue: false
+elim: 20%
+hosttimer: null
+owner: 397029587965575170
+queue: []
+queuetimer: {prompt: null, results: null, voting: null}
+round: 1
+season: 1
+seasons:
+  season-1:
+    rounds:
+      round-1:
+        alive: []
+        prompt: null
+        responses: {}
+        restimer: null
+        slides: {}
+        votes: []
+        votetimer: null
+voting: false
+words: 10

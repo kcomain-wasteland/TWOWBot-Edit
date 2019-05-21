@@ -1,0 +1,31 @@
+blacklist: []
+canqueue: false
+elim: 20%
+hosttimer: null
+owner: 434585742187167745
+queue: []
+queuetimer: {prompt: null, results: null, voting: null}
+round: 1
+season: 1
+seasons:
+  season-1:
+    rounds:
+      round-1:
+        alive: [397029587965575170, 336681612261720076, 437112438182379520, 397273885701177347]
+        prompt: !!binary |
+          V2hhdCB3aWxsIHlvdSBkbyBpZiB5b3UncmUgaW4gYW4gZW1lcmdlbmN5IHNpdHVhdGlvbj8=
+        responses:
+          336681612261720076: !!binary |
+            anVtcCBvZmYgYSBjbGlmZiwgc28gaXQgY2FuIGVuZCBxdWlja2x5LiBlYXN5
+          397029587965575170: !!binary |
+            YSBwaWVjZSBvZiBwYXBlcg==
+          397273885701177347: !!binary |
+            YWdhaW4/
+          437112438182379520: !!binary |
+            V2VsbCwgSeKAmW0gdG9vIGR1bWIgdG8gbm90aWNlIHRoYXQgSeKAmW0gaW4gb25lLg==
+        restimer: null
+        slides: {}
+        votes: []
+        votetimer: null
+voting: true
+words: 10
