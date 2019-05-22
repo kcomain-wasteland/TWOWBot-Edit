@@ -24,8 +24,13 @@ seasons:
           437112438182379520: !!binary |
             V2VsbCwgSeKAmW0gdG9vIGR1bWIgdG8gbm90aWNlIHRoYXQgSeKAmW0gaW4gb25lLg==
         restimer: null
-        slides: {}
-        votes: []
+        slides:
+          397273885701177347: [397029587965575170, 336681612261720076, 437112438182379520]
+        votes:
+        - vote: [397273885701177347, 336681612261720076, 437112438182379520]
+          voter: 397029587965575170
+        - vote: [437112438182379520, 336681612261720076, 397273885701177347]
+          voter: 397029587965575170
         votetimer: null
 voting: true
 words: 10

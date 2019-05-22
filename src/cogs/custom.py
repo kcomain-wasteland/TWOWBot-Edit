@@ -20,7 +20,7 @@ class Custom:
             'Just a test,bro.')
     @category('etc')
     @commands.command()
-    async def ping(self, ctx):
+    async def pingself(self, ctx):
         '''Testing if bot is online
         '''
         await ctx.bot.send_message(ctx.channel,'Pong!')
