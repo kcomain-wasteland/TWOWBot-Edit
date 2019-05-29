@@ -1,1 +1,1 @@
-web: python3 setup.py && ./src/scripts/run_bot.sh
+worker: python3 setup.py && ./src/scripts/run_bot.sh
