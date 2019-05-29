@@ -12,8 +12,8 @@ def main():
     
     print('\rChecking python version  [ {}.{}.{} ]'.format(*python_version))
     if python_version[0] != 3 or python_version[1] != 6:
-        print('You must be using Python 3.6 for TWOWBot to work.')
-        return
+        print('You must be using Python 3.6.* for TWOWBot to work.')
+        return 102
     
     sys.stdout.write('Checking for discord.py  [       ]')
     sys.stdout.flush()
@@ -26,7 +26,7 @@ def main():
         result = pip.main(['install', '-U', 'git+https://github.com/Rapptz/discord.py'])
         if result != 0:
             print('Something went wrong while installing discord.py!')
-            return
+            return 10
     else:
         print('\rChecking for discord.py  [ FOUND ]')
     
@@ -41,7 +41,7 @@ def main():
         result = pip.main(['install', '-U', 'ruamel.YAML'])
         if result != 0:
             print('Something went wrong while installing ruamel.YAML')
-            return
+            return 10
     else:
         print('\rChecking for ruamel.YAML [ FOUND ]')
     
