@@ -23,7 +23,7 @@ def main():
         print('\rChecking for discord.py  [FAILED!]')
         print('Installing discord.py:')
         import pip
-        result = pip.main(['install', '-U', 'git+https://github.com/Rapptz/discord.py@rewrite'])
+        result = pip.main(['install', '-U', 'git+https://github.com/Rapptz/discord.py@latest'])
         if result != 0:
             print('Something went wrong while installing discord.py!')
             return
