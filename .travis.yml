@@ -6,3 +6,4 @@ python:
 install: python3 setup.py
 script:
   - ls -l
+  - python3 setup.py
